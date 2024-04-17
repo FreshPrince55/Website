@@ -1,0 +1,35 @@
+body {
+	background-color: #f5f5f5;
+	font-family: Arial, sans-serif;
+}
+
+#countdown {
+	width: 300px;
+	height: 200px;
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+	margin: 50px auto;
+	padding: 20px;
+	text-align: center;
+}
+
+.countdown-item {
+	font-size: 48px;
+	font-weight: bold;
+	margin: 10px 0px;
+	display: inline-block;
+	width: 80px;
+	line-height: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background-color: #f5f5f5;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.countdown-label {
+	font-size: 18px;
+	font-weight: bold;
+	display: block;
+	margin-top: 10px;
+}
